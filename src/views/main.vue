@@ -126,20 +126,6 @@
                             <span slot="title">线上会议</span>
                         </el-menu-item>
                     </el-submenu>
-                    <el-submenu
-                        index="系统设置"
-                        :popper-class="'site-sidebar--' + sidebarLayoutSkin + '-popper'"
-                        v-if="isAuth(['ROOT'])"
-                    >
-                        <template #title>
-                            <SvgIcon name="system_fill" class="icon-svg" />
-                            <span slot="title">系统设置</span>
-                        </template>
-                        <el-menu-item index="amect-type" @click="$router.push({ name: 'AmectType' })">
-                            <SvgIcon name="tool_fill" class="icon-svg" />
-                            <span slot="title">罚款类型</span>
-                        </el-menu-item>
-                    </el-submenu>
                 </el-menu>
             </div>
         </aside>
