@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import viteSvgIcons from 'vite-plugin-svg-icons';
 
 module.exports = {
-	base: '/emos/',
+	base: '/',
 	publicPath: '/emos/',
 	server: {
 		port: 3000,

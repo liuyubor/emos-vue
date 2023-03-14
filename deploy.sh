@@ -10,7 +10,7 @@ npm run build
 cd dist
 
 # 部署到自定义域域名
-# echo 'www.example.com' > CNAME
+ echo 'www.liuyubo.top' > CNAME
 
 git init
 git add -A
