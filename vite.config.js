@@ -2,9 +2,10 @@ const path = require('path')
 import vue from '@vitejs/plugin-vue'
 import viteSvgIcons from 'vite-plugin-svg-icons';
 
-
-
 module.exports = {
+	publicPath: process.env.NODE_ENV === 'production'
+    ? '/emos-vue/'
+    : '/',
 	base: '/',
 	server: {
 		port: 3000,
